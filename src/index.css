@@ -1,0 +1,58 @@
+/* index.css */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #ccc;
+	font-family: Helvetica, sans-serif;
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.envelope {
+	position: relative;
+	width: 500px;
+	height: 200px;
+	border: solid 3em transparent;
+	background: #ddd;
+	outline: solid 2px black;
+	max-widht: 500px;
+}
+
+.address-block {
+	font-style: normal;
+	max-width: 10em;
+}
+
+.address-block.receiver {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.stamp {
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	border: solid 1px rgba(0,0,0,0.5);
+	padding: 0.5em;
+	position: absolute;
+	top: 0; right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.stamp span {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	transform: rotate(-30deg);
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pure-react-envelope-exercise/static/css/main.6a6b41d9.css",
+    "main.js": "/pure-react-envelope-exercise/static/js/main.4c53d5e9.js",
+    "index.html": "/pure-react-envelope-exercise/index.html",
+    "main.6a6b41d9.css.map": "/pure-react-envelope-exercise/static/css/main.6a6b41d9.css.map",
+    "main.4c53d5e9.js.map": "/pure-react-envelope-exercise/static/js/main.4c53d5e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a6b41d9.css",
+    "static/js/main.4c53d5e9.js"
+  ]
+}
